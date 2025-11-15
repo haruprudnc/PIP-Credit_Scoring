@@ -1,0 +1,132 @@
+Parameter:
+    NUM_TREES = 500
+    LEARNING_RATE = 0.1
+
+--- Model Evaluation Results ---
+Accuracy Score: 0.7880
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Poor (0)       0.79      0.79      0.79      5799
+Standard (1)       0.80      0.81      0.81     10635
+    Good (2)       0.75      0.71      0.73      3566
+
+    accuracy                           0.79     20000
+   macro avg       0.78      0.77      0.77     20000
+weighted avg       0.79      0.79      0.79     20000
+
+Execution time: 48.0616 seconds
+
+^^--------------------------------------------------------^^
+
+Parameter:
+    NUM_TREES = 500
+    LEARNING_RATE = 0.05
+
+--- Model Evaluation Results ---
+Accuracy Score: 0.7842
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Poor (0)       0.78      0.78      0.78      5799
+Standard (1)       0.80      0.81      0.80     10635
+    Good (2)       0.73      0.71      0.72      3566
+
+    accuracy                           0.78     20000
+   macro avg       0.77      0.77      0.77     20000
+weighted avg       0.78      0.78      0.78     20000
+
+Execution time: 48.8709 seconds
+
+^^--------------------------------------------------------^^
+
+Parameter:
+    NUM_TREES = 970
+    LEARNING_RATE = 0.1
+
+--- Model Evaluation Results ---
+Accuracy Score: 0.7903
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Poor (0)       0.79      0.80      0.79      5799
+Standard (1)       0.80      0.81      0.81     10635
+    Good (2)       0.75      0.71      0.73      3566
+
+    accuracy                           0.79     20000
+   macro avg       0.78      0.77      0.78     20000
+weighted avg       0.79      0.79      0.79     20000
+
+Execution time: 79.1627 seconds
+
+^^--------------------------------------------------------^^
+
+Parameter:
+    NUM_TREES = 970
+    LEARNING_RATE = 0.05
+
+--- Model Evaluation Results ---
+Accuracy Score: 0.7903
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Poor (0)       0.79      0.79      0.79      5799
+Standard (1)       0.80      0.81      0.81     10635
+    Good (2)       0.75      0.72      0.74      3566
+
+    accuracy                           0.79     20000
+   macro avg       0.78      0.78      0.78     20000
+weighted avg       0.79      0.79      0.79     20000
+
+Execution time: 77.2288 seconds
+
+^^--------------------------------------------------------^^
+
+Parameter:
+    NUM_TREES = 1970
+    LEARNING_RATE = 0.1
+
+--- Model Evaluation Results ---
+Accuracy Score: 0.7901
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Poor (0)       0.79      0.80      0.79      5799
+Standard (1)       0.80      0.81      0.81     10635
+    Good (2)       0.75      0.71      0.73      3566
+
+    accuracy                           0.79     20000
+   macro avg       0.78      0.77      0.78     20000
+weighted avg       0.79      0.79      0.79     20000
+
+Execution time: 157.9265 seconds
+
+^^--------------------------------------------------------^^
+
+Parameter:
+    NUM_TREES = 1970
+    LEARNING_RATE = 0.05
+
+--- Model Evaluation Results ---
+Accuracy Score: 0.7913
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Poor (0)       0.79      0.80      0.79      5799
+Standard (1)       0.80      0.81      0.81     10635
+    Good (2)       0.76      0.72      0.74      3566
+
+    accuracy                           0.79     20000
+   macro avg       0.78      0.78      0.78     20000
+weighted avg       0.79      0.79      0.79     20000
+
+Execution time: 134.1960 seconds
+
+^^--------------------------------------------------------^^
+
