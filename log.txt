@@ -1,4 +1,26 @@
 Parameter:
+    NUM_TREES = 100
+    LEARNING_RATE = 0.2
+
+--- Model Evaluation Results ---
+Accuracy Score: 0.7762
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Poor (0)       0.78      0.77      0.77      5799
+Standard (1)       0.79      0.80      0.80     10635
+    Good (2)       0.72      0.70      0.71      3566
+
+    accuracy                           0.78     20000
+   macro avg       0.76      0.76      0.76     20000
+weighted avg       0.78      0.78      0.78     20000
+
+Execution time: 20.2787 seconds
+
+^^--------------------------------------------------------^^
+
+Parameter:
     NUM_TREES = 500
     LEARNING_RATE = 0.1
 
@@ -151,3 +173,4 @@ weighted avg       0.79      0.79      0.79     20000
 Execution time: 754.5490 seconds
 
 ^^--------------------------------------------------------^^
+
